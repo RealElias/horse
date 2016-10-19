@@ -41,7 +41,8 @@ public class HorseWalker {
 
                 if(newX >= 0 && newX < CUBE_SIZE &&
                         newY >= 0 && newY < CUBE_SIZE &&
-                        newZ >= 0 && newZ < CUBE_SIZE) {
+                        newZ >= 0 && newZ < CUBE_SIZE &&
+                        field[newX][newY][newZ] == 0) {
                     x = newX;
                     y = newY;
                     z = newZ;
